@@ -1,0 +1,33 @@
+
+@media screen and (max-width: 419px) {
+
+#lezioni{
+  width: 100vw;
+}
+  .row{
+    width: 100%;
+    text-align: center;
+  }
+  #lezioni .row > .left, #lezioni .row > .right{
+    width: 100%;
+    float: none;
+    margin: 5% auto;
+    font-size: 1.2em;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: auto;
+  }
+
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right {
+    float: none;
+    width: 100%;
+    margin-top: 10%;
+  }
+  .clear{
+    display: none;
+  }
+}
